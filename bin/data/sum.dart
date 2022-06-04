@@ -4,10 +4,13 @@ class Sum {
 
   Sum(this.first, this.second);
 
-  int call(){
+  int call() {
     return first + second;
   }
 }
+
+typedef Jumlah = Sum;
+typedef Total = Sum;
 
 void main(List<String> args) {
   var sum = Sum(10, 20);
