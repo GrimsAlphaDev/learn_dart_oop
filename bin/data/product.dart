@@ -7,6 +7,10 @@ class Product {
   int? _quantity; // Tidak bisa diakses dari luar
 
   int? _getQuantity() => _quantity;
+
+  String toString() {
+    return "Produk {id=$id, name=$name, quantity=$_quantity}";
+  }
 }
 
 void main(List<String> args) {
@@ -14,5 +18,5 @@ void main(List<String> args) {
   product.id = 'P001';
   product.name = 'Sneakers';
   product._getQuantity();
-  product._quantity = 10; 
+  product._quantity = 10;
 }
