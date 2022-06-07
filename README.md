@@ -1,5 +1,7 @@
 Repo Untuk Belajar Object Oriented Di Bahasa Pemrograman Dart 
 
+File Script Avaible At Bin/
+
 Flow For Learning OOP In Dart :
 - Class
 - Object
